@@ -1,6 +1,6 @@
 name: ci-cd pipeline
-on: [push]
-
+on:
+    push:
 env:
     IMAGE_NAME: onben/gitlab_example
     IMAGE_TAG: 2.0.0
