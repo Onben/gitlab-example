@@ -14,5 +14,5 @@ jobs:
                 python -m pip install --upgrade pip
                 pip install -Ur src/requirements.txt
             - name: run-tests
-            run pytest -v src
+            run: pytest -v src
                 
